@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sipariş sayfası</title>
+</head>
+<body style="background-color:aquamarine;"></body>
+<h1> <em>Sipariş bilgileri</em> </h1>
+<form action="/action_page.php">
+    <label for="isim"><i>isim:</i></label><br>
+    <input type="text" id="isim">
+    <div><label for="soyisim"><i>soy isim:</i></label><br></div>
+    <input type="text" id="soyisim">
+    
+</form>
+<p>Hangi araçları kullanırsın?</p>
+
+<form>
+    <div><input type="checkbox" id="as">
+    <label for="as">Araba</label></div>
+    <div><input type="checkbox" id="sa" >
+    <label for="sa">bisiklet</label></div>
+    <div><input type="checkbox" id="ayn" >
+    <label for="ayn">Yaya/Araç kullanmıyorum</label></div>
+</form>
+<p>Ücretsiz kargo ister misiniz?</p>
+<input type="radio" id="Evet" name="evet" value="evet">
+<Label for="evet">Evet</Label>
+<div><input type="radio" id="hayır"name="hayır" value="hayır">
+<label for="hayır">Hayır</label></div>
+</form>
+
+
+
+</form>
+<label for="adres"><i>Adres:</i></label><br>
+    <input type="text" id="adres" size=small{width:50%;}>
+
+
+</form>
+<div><p>Kargo seçeneği</p></div>
+<form>
+   <label for="Kargo çeşidi"><div><em>Kargo ücreti seçeneğe göre değişecektir*</em></label></div>
+    <select id="Kargo çeşidi" name="Kargo çeşidi">
+      <div><option value="Belej">ücretsiz</option>
+      <option value="parali">Ücretli</option>
+    </select>
+    <input type="submit">
+</form>
