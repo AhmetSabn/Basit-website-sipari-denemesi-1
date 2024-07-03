@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sipariş sayfası</title>
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body><img src="Downloads/siparistakip2.jpg" style="width:100%"> </body>
+ 
+<h1 style="text-align:center;color:black"> <em>Sipariş bilgileri</em> </h1>
+<form action="/action_page.php">
+    <label for="isim"><i>isim:</i></label><br>
+    <input type="text" id="isim">
+    <div><label for="soyisim"><i>soy isim:</i></label><br></div>
+    <input type="text" id="soyisim">
+    
+</form>
+<p>Hangi araçları kullanırsın?</p>
+
+<form style="size:">
+    <div><input type="checkbox" id="as">
+    <label for="as">Araba</label></div>
+    <div><input type="checkbox" id="sa" >
+    <label for="sa">bisiklet</label></div>
+    <div><input type="checkbox" id="ayn" >
+    <label for="ayn">Yaya/Araç kullanmıyorum</label></div>
+</form style="text-align:center;">
+<p>Ücretsiz kargo ister misiniz?</p>
+<input type="radio" id="Evet" name="evet" value="evet">
+<Label for="evet">Evet</Label>
+<div><input type="radio" id="hayır"name="hayır" value="hayır">
+<label for="hayır">Hayır</label></div>
+</form>
+
+
+
+</form>
+<label for="adres"><i>Adres:</i></label><br>
+    <input type="text" id="adres" size=small{width:50%;}>
+
+</form>
+<div><p>Kargo seçeneği</p></div>
+<form>
+   <label for="Kargo çeşidi" style="text-align:center;"></label><div><em>Kargo ücreti seçeneğe göre değişecektir*</em></label></div>
+    <select id="Kargo çeşidi">
+      <option value="Belej">ücretsiz</option>
+      <option value="parali">Ücretli</option>
+    </select>
+    <input type="submit">
+</form>
+
+<a href="downloads/restaurant-receipt-itemized2-small.jpg">Fişi görmek için tıklayın</a>;
